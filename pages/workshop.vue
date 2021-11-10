@@ -1,11 +1,12 @@
 <template>
   <div class>
-    <v-alert color="#DB2C27" dark>
-      เข้าร่วมกิจกรรม Workshop เพื่อร่วมเป็นส่วนหนึ่งในการพัฒนานวัตกรรมการศึกษา
-      <v-btn @click="$router.push('/workshop')" color="#DB2C27"
-        >คลิกที่นี่</v-btn
-      >
-    </v-alert>
+    <div class="text-center">
+      <v-alert color="#DB2C27" dark>
+        เข้าร่วมกิจกรรม Workshop
+        เพื่อร่วมเป็นส่วนหนึ่งในการพัฒนานวัตกรรมการศึกษา
+        <u class="pointer" @click="$router.push('/workshop')">คลิกที่นี่</u>
+      </v-alert>
+    </div>
 
     <v-row>
       <div class="d-flex">

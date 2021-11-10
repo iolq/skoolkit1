@@ -1,12 +1,13 @@
 
 <template>
   <div class>
-    <v-alert color="#DB2C27" dark>
-      เข้าร่วมกิจกรรม Workshop เพื่อร่วมเป็นส่วนหนึ่งในการพัฒนานวัตกรรมการศึกษา
-      <v-btn @click="$router.push('/workshop')" color="#DB2C27"
-        ><u>คลิกที่นี่</u></v-btn
-      >
-    </v-alert>
+    <div class="text-center">
+      <v-alert color="#DB2C27" dark>
+        เข้าร่วมกิจกรรม Workshop
+        เพื่อร่วมเป็นส่วนหนึ่งในการพัฒนานวัตกรรมการศึกษา
+        <u class="pointer" @click="$router.push('/workshop')">คลิกที่นี่</u>
+      </v-alert>
+    </div>
 
     <v-row>
       <div class="d-flex">
@@ -388,9 +389,9 @@
 
       <v-container>
         <v-col>
-          <div class="text-left">
-            <h2>SKOOLKIT แพลตฟอร์มจัดการเรียนการสอนเเบบ Active Learning</h2>
-            <h2>ที่รวบรวมทั้งสื่อเเละเครื่องมือไว้ในที่เดียวให้ได้ใช้งานฟรี</h2>
+          <div class="text-left px-16">
+            <h1>SKOOLKIT แพลตฟอร์มจัดการเรียนการสอนเเบบ Active Learning</h1>
+            <h1>ที่รวบรวมทั้งสื่อเเละเครื่องมือไว้ในที่เดียวให้ได้ใช้งานฟรี</h1>
             <h3 class="font-weight-thin">
               เพียงลงทะเบียนฟอร์มด้านล่าง และรอการติดต่อกลับจากทีมงาน
             </h3>
@@ -399,7 +400,7 @@
       </v-container>
       <v-space></v-space>
       <v-container>
-        <div class="text-center">
+        <div class="text-center pb-7">
           <v-btn color="#DB2C27" large dark @click="$router.push('/trial')">
             <h3 class="font-weight-thin">ทดลองใช้งานฟรี</h3>
           </v-btn>
