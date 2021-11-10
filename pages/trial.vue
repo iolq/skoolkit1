@@ -57,10 +57,12 @@
                 >
               </h1>
             </v-container>
-            <v-container
-              ><h2 class="text-left font-weight-thin">
-                เพียงลงทะเบียนฟอร์มด้านล่าง และรอการติดต่อกลับจากทีมงาน
-              </h2></v-container
+            <v-container>
+              <div class="change-color">
+                <h3 class="text-left font-weight-thin">
+                  เพียงลงทะเบียนฟอร์มด้านล่าง และรอการติดต่อกลับจากทีมงาน
+                </h3>
+              </div></v-container
             >
           </v-container>
         </div>

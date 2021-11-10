@@ -89,46 +89,49 @@
             </div>
           </v-container>
         </div>
-        <v-row clas="text-center">
-          <div class="d-flex">
-            <v-col cols="3">
-              <div>
-                <v-img src="Group 2774.png" width="50%"></v-img>
-                <p class="text-center">เช็คชื่อ</p>
-              </div>
-            </v-col>
-            <v-col cols="2"
-              ><div>
-                <v-img src="Group random.png" width="80%"></v-img>สุ่ม
-              </div></v-col
-            >
-            <v-col cols="2"
-              ><div>
-                <v-img src="Group group.png" width="100%"></v-img>แบ่งกลุ่ม
-              </div></v-col
-            >
-            <v-col cols="2"
-              ><div>
-                <v-img src="Group vote.png" width="100%"></v-img>โหวต
-              </div></v-col
-            >
-            <v-col cols="3">
-              <div>
-                <v-img src="Group feedback.png" width="65%"></v-img>ฟีดแบค
-              </div></v-col
-            >
-            <v-col cols="3">
-              <div>
-                <v-img src="Group game.png" width="60%"></v-img>ควิซเกม
-              </div></v-col
-            >
-            <v-col>
-              <div>
-                <v-img src="Group report.png" width="100%"></v-img>รายงาน
-              </div></v-col
-            >
-          </div>
-        </v-row>
+        <div class="pa-16 mb-16">
+          <v-row class="text-center" justify="center">
+            <div class="d-flex">
+              <v-col cols="1.7">
+                <div class="px-5">
+                  <v-img src="Group 2774.png" width="45"></v-img>
+                  <p class="text-center">เช็คชื่อ</p>
+                </div>
+              </v-col>
+              <v-col cols="1.7"
+                ><div class="px-5">
+                  <v-img src="Group random.png" width="35"></v-img>สุ่ม
+                </div></v-col
+              >
+              <v-col cols="2"
+                ><div class="px-5">
+                  <v-img src="Group group.png" width="55"></v-img>
+                  <div>แบ่งกลุ่ม</div>
+                </div></v-col
+              >
+              <v-col cols="1.7"
+                ><div class="px-5">
+                  <v-img src="Group vote.png" width="46"></v-img>โหวต
+                </div></v-col
+              >
+              <v-col cols="2">
+                <div class="px-5 ml-1">
+                  <v-img src="Group feedback.png" width="45"></v-img>ฟีดแบค
+                </div></v-col
+              >
+              <v-col cols="2">
+                <div class="px-4">
+                  <v-img src="Group game.png" width="45"></v-img>ควิซเกม
+                </div></v-col
+              >
+              <v-col col="1.7">
+                <div class="px-5">
+                  <v-img src="Group report.png" width="37"></v-img>รายงาน
+                </div></v-col
+              >
+            </div>
+          </v-row>
+        </div>
         <v-container>
           <v-row>
             <v-col cols="7 pr-1">
@@ -149,7 +152,7 @@
                 </div>
               </v-container>
               <v-container>
-                <div class="text-left">
+                <div class="text-left change-color">
                   <h3 class="font-weight-thin">
                     ระบบมีการเช็คชื่อที่ง่ายและรวดเร็วที่สุดตั้งแต่
                   </h3>
@@ -175,7 +178,7 @@
               </div>
             </v-container>
             <v-container>
-              <div class="text-left">
+              <div class="text-left change-color">
                 <h3 class="font-weight-thin">
                   สามารถสุ่มนักเรียนขึ้นมาทำกิจกรรม
                 </h3>
@@ -209,7 +212,7 @@
               </div>
             </v-container>
             <v-container>
-              <div class="text-left">
+              <div class="text-left change-color">
                 <h3 class="font-weight-thin">ระบบสามารถแบ่งกลุ่มนักเรียนได้</h3>
                 <h3 class="font-weight-thin">
                   อย่างยุติธรรม หมดปัญหาเรื่องเด็กไม่มีกลุ่ม
@@ -232,7 +235,7 @@
               </div>
             </v-container>
             <v-container>
-              <div class="text-left">
+              <div class="text-left change-color">
                 <h3 class="font-weight-thin">
                   คุณครูสามารถสร้างคำถามเพื่อสอบถาม
                 </h3>
@@ -267,7 +270,7 @@
               </div>
             </v-container>
             <v-container>
-              <div class="text-left">
+              <div class="text-left change-color">
                 <h3 class="font-weight-thin">
                   นักเรียนสามารถให้ฟีดแบ็คในทุกคาบเรียน
                 </h3>
@@ -295,7 +298,7 @@
               </div>
             </v-container>
             <v-container>
-              <div class="text-left">
+              <div class="text-left change-color">
                 <h3 class="font-weight-thin">
                   ระบบเก็บข้อมูลจากทุกกิจกรรมที่เกิดขึ้น
                 </h3>
@@ -336,7 +339,7 @@
               </div>
             </v-container>
             <v-container>
-              <div class="text-left">
+              <div class="text-left change-color">
                 <h3 class="font-weight-thin">
                   ยกระดับการวัดความเข้าใจผ่านการใช้ควิซ
                 </h3>
@@ -351,7 +354,7 @@
             >
           </v-col>
         </v-row>
-        <div class="text-center">
+        <div class="text-center change-color">
           <h1 class="font-weight-medium">และบทเรียนอีกมากมาย</h1>
 
           <h3 class="font-weight-thin">
@@ -387,9 +390,11 @@
           <div class="text-left px-16">
             <h1>SKOOLKIT แพลตฟอร์มจัดการเรียนการสอนเเบบ Active Learning</h1>
             <h1>ที่รวบรวมทั้งสื่อเเละเครื่องมือไว้ในที่เดียวให้ได้ใช้งานฟรี</h1>
-            <h3 class="font-weight-thin">
-              เพียงลงทะเบียนฟอร์มด้านล่าง และรอการติดต่อกลับจากทีมงาน
-            </h3>
+            <div class="change-color">
+              <h3 class="font-weight-thin">
+                เพียงลงทะเบียนฟอร์มด้านล่าง และรอการติดต่อกลับจากทีมงาน
+              </h3>
+            </div>
           </div>
         </v-col>
       </v-container>

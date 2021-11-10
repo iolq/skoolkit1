@@ -42,10 +42,15 @@
       </div>
     </v-row>
     <v-container>
-      <v-container>
-        <v-container><h1>.... ยังไม่มีบทความ ....</h1></v-container>
-
-        <h2 class="font-weight-thin">คอยติดตามนะ</h2>
+      <v-container
+        ><div class="pa-16 ma-16">
+          <div class="pb-16 md-16">
+            <v-container><h1>.... ยังไม่มีบทความ ....</h1></v-container>
+            <div class="change-color">
+              <h2 class="font-weight-thin">คอยติดตามนะ</h2>
+            </div>
+          </div>
+        </div>
       </v-container>
     </v-container>
 
