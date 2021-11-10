@@ -18,12 +18,12 @@
                 <v-col>
                   <p class="pointer" @click="$router.push('/')">คุณสมบัติ</p>
                 </v-col>
-                <v-col cols="2">
+                <v-col cols="3">
                   <p class="pointer" @click="$router.push('/article')">
                     บทความ
                   </p>
                 </v-col>
-                <v-col cols="4">
+                <v-col cols="3">
                   <p class="pointer" @click="$router.push('/trial')">
                     ทดลองการใช้งาน
                   </p>
@@ -33,9 +33,7 @@
                   <p class="pointer">เข้าร่วมควิช</p>
                 </v-col>
                 <v-col>
-                  <div class="mb-16">
-                    <v-btn color="#DB2C27" dark>เข้าสู่ระบบ</v-btn>
-                  </div>
+                  <v-btn color="#DB2C27" dark>เข้าสู่ระบบ</v-btn>
                 </v-col>
                 <v-col cols="1">
                   <!-- <v-btn outlined>En</v-btn> -->

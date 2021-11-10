@@ -19,12 +19,12 @@
                 <v-col>
                   <p class="pointer" @click="$router.push('/')">คุณสมบัติ</p>
                 </v-col>
-                <v-col cols="2">
+                <v-col cols="3">
                   <p class="pointer" @click="$router.push('/article')">
                     บทความ
                   </p>
                 </v-col>
-                <v-col cols="4">
+                <v-col cols="3">
                   <p class="pointer" @click="$router.push('/trial')">
                     ทดลองการใช้งาน
                   </p>
@@ -366,19 +366,17 @@
         </div>
       </v-container>
       <!-- เอารูปหมุนๆ -->
-      <v-row>
-        <v-col cols="12">
-          <div class="d-flex">
-            <v-img src="chem.png" width="15%"></v-img>
-            <v-img src="citizen.png" width="15%"></v-img>
-            <v-img src="history.png" width="15%"></v-img>
-            <v-img src="social.png" width="15%"></v-img>
-            <v-img src="astro.png" width="15%"></v-img>
-            <v-img src="sci.png" width="15%"></v-img>
-            <v-img src="phy.png" width="15%"></v-img>
-          </div>
-        </v-col>
-      </v-row>
+
+      <div class="d-flex">
+        <v-img src="chem.png" width="14%"></v-img>
+        <v-img src="citizen.png" width="14%"></v-img>
+        <v-img src="history.png" width="14%"></v-img>
+        <v-img src="social.png" width="14%"></v-img>
+        <v-img src="astro.png" width="14%"></v-img>
+        <v-img src="sci.png" width="14%"></v-img>
+        <v-img src="phy.png" width="14%"></v-img>
+      </div>
+
       <div class="d-flex">
         <v-img src="5.png" width="20%"></v-img>
         <v-img src="6.png" width="20%"></v-img>

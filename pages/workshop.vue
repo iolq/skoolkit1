@@ -18,12 +18,12 @@
                 <v-col>
                   <p class="pointer" @click="$router.push('/')">คุณสมบัติ</p>
                 </v-col>
-                <v-col cols="2">
+                <v-col cols="3">
                   <p class="pointer" @click="$router.push('/article')">
                     บทความ
                   </p>
                 </v-col>
-                <v-col cols="4">
+                <v-col cols="3">
                   <p class="pointer" @click="$router.push('/trial')">
                     ทดลองการใช้งาน
                   </p>
