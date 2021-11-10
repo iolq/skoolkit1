@@ -34,10 +34,7 @@
                   <p class="pointer">เข้าร่วมควิช</p>
                 </v-col>
                 <v-col>
-                  <v-btn color="#DB2C27" dark>เข้าสู่ระบบ</v-btn>
-                </v-col>
-                <v-col cols="1">
-                  <!-- <v-btn outlined>En</v-btn> -->
+                  <v-btn color="#DB2C27" rounded large dark>เข้าสู่ระบบ</v-btn>
                 </v-col>
               </div>
             </v-col>
@@ -399,7 +396,13 @@
       <v-space></v-space>
       <v-container>
         <div class="text-center pb-7">
-          <v-btn color="#DB2C27" large dark @click="$router.push('/trial')">
+          <v-btn
+            color="#DB2C27"
+            rounded
+            large
+            dark
+            @click="$router.push('/trial')"
+          >
             <h3 class="font-weight-thin">ทดลองใช้งานฟรี</h3>
           </v-btn>
         </div>

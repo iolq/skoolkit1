@@ -33,10 +33,7 @@
                   <p class="pointer">เข้าร่วมควิช</p>
                 </v-col>
                 <v-col>
-                  <v-btn color="#DB2C27" dark>เข้าสู่ระบบ</v-btn>
-                </v-col>
-                <v-col cols="1">
-                  <!-- <v-btn outlined>En</v-btn> -->
+                  <v-btn color="#DB2C27" rounded large dark>เข้าสู่ระบบ</v-btn>
                 </v-col>
               </div>
             </v-col>
