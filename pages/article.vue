@@ -15,26 +15,30 @@
           <div class="d-flex">
             <v-col class="tabs">
               <div class="d-flex">
-                <v-col>
+                <v-col cols="3">
                   <p class="pointer" @click="$router.push('/')">คุณสมบัติ</p>
                 </v-col>
-                <v-col cols="3">
+                <v-col cols="2">
                   <p class="pointer" @click="$router.push('/article')">
                     บทความ
                   </p>
                 </v-col>
-                <v-col cols="3">
+                <v-col cols="4">
                   <p class="pointer" @click="$router.push('/trial')">
                     ทดลองการใช้งาน
                   </p>
                 </v-col>
-                <v-col cols="7" />
+                <v-col cols="8" />
                 <v-col class="tabs" cols="3">
                   <p class="pointer">เข้าร่วมควิช</p>
                 </v-col>
-                <v-col>
-                  <v-btn color="#DB2C27" rounded large dark>เข้าสู่ระบบ </v-btn>
-                </v-col>
+                <v-row>
+                  <v-col cols="4">
+                    <v-btn color="#DB2C27" rounded large dark
+                      >เข้าสู่ระบบ</v-btn
+                    >
+                  </v-col></v-row
+                >
               </div>
             </v-col>
           </div>

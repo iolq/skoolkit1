@@ -1,5 +1,8 @@
 .pointer {cursor: pointer;}
 .change-color h3 {
     color: #939498;}
-    .change-color h2 {
+.change-color h2 {
         color: #939498;}
+        .a:active {
+            color: yellow;
+          }
