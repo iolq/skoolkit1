@@ -50,64 +50,75 @@
           <h1>“ห้องเรียนแบบไหนที่ครูอยากให้เป็น”</h1>
           เพียงลงทะเบียนฟอร์มด้านล่าง และรอการติดต่อกลับจากทีมงาน
         </div>
-        <v-container class="text-center">
-          <div style="border: 3px solid #db2c27">
-            <v-container>
-              <div>
-                <strong> รับสมัครตั้งแต่ 18-22 ตุลาคม 2564  </strong>
-              </div></v-container
-            >
-            <v-container>
-              <div>
-                <strong
-                  >กิจกรรมจัดขึ้นรูปแบบออนไลน์ในวันที่ 27 ตุลาคม 2564</strong
+        <v-container>
+          <v-container class="text-center">
+            <div style="border: 5px solid #db2c27" class="pa-16 ma-16">
+              <v-container>
+                <v-container>
+                  <div>
+                    <h1 class="font-weight-black">
+                      รับสมัครตั้งแต่ 18-22 ตุลาคม 2564 
+                    </h1>
+                  </div></v-container
                 >
-              </div>
-            </v-container>
-            <v-container>
-              <div><strong>เวลา 13.00-15.00 น.</strong></div>
-            </v-container>
-          </div>
-        </v-container>
-        <div class="text-left">
-          <v-container>
-            <div>
-              <div>
-                ขอเชิญชวนคุณครู ผู้อำนวยการโรงเรียนเข้าร่วมกิจกรรม
-                Workshop “ห้องเรียนแบบไหนที่ครูอยากให้เป็น”
-              </div>
-              <div>
-                มาร่วมกันออกแบบห้องเรียนที่อยากจะเป็นและร่วมเป็นส่วนหนึ่งในการพัฒนานวัตกรรมการศึกษาเพื่อทักษะการเรียนรู้
-              </div>
-              <div>ในศตวรรษที่ 21</div>
-            </div></v-container
-          >
-          <v-container
-            ><div><strong>นำกิจกรรมโดย</strong></div>
-
-            <div>ทีม SKOOLKIT สตาร์ทอัพสายเทคโนโลยีการศึกษา</div></v-container
-          >
-          <v-container
-            ><div>
-              <strong> สิ่งที่คุณครูจะได้รับหลังจบกิจกรรม</strong>
+                <v-container>
+                  <div>
+                    <h1 class="font-weight-black">
+                      กิจกรรมจัดขึ้นรูปแบบออนไลน์ในวันที่ 27 ตุลาคม 2564
+                    </h1>
+                  </div>
+                </v-container>
+                <v-container>
+                  <div>
+                    <h1 class="font-weight-black">เวลา 13.00-15.00 น.</h1>
+                  </div>
+                </v-container>
+              </v-container>
             </div>
-            <div>
-              ใบประกาศนียบัตรจาก
-              SKOOLKIT นอกจากนี้ยังได้รับสิทธิในการใช้งานระบบการจัดการเรียนการสอนในชั้นเรียน
-              <div>
-                SKOOLKIT ฟรี
-                และที่สำคัญได้เป็นกองกำลังสำคัญในการพัฒนานวัตกรรมเพื่อการศึกษาอีกด้วย
-              </div>
+          </v-container>
+          <v-container>
+            <div class="text-left ps-12 ma-1">
+              <v-container>
+                <div>
+                  <div>
+                    ขอเชิญชวนคุณครู ผู้อำนวยการโรงเรียนเข้าร่วมกิจกรรม
+                    Workshop “ห้องเรียนแบบไหนที่ครูอยากให้เป็น”
+                  </div>
+                  <div>
+                    มาร่วมกันออกแบบห้องเรียนที่อยากจะเป็นและร่วมเป็นส่วนหนึ่งในการพัฒนานวัตกรรมการศึกษาเพื่อทักษะการเรียนรู้
+                  </div>
+                  <div>ในศตวรรษที่ 21</div>
+                </div></v-container
+              >
+              <v-container
+                ><div><strong>นำกิจกรรมโดย</strong></div>
+
+                <div>
+                  ทีม SKOOLKIT สตาร์ทอัพสายเทคโนโลยีการศึกษา
+                </div></v-container
+              >
+              <v-container
+                ><div>
+                  <strong> สิ่งที่คุณครูจะได้รับหลังจบกิจกรรม</strong>
+                </div>
+                <div>
+                  ใบประกาศนียบัตรจาก
+                  SKOOLKIT นอกจากนี้ยังได้รับสิทธิในการใช้งานระบบการจัดการเรียนการสอนในชั้นเรียน
+                  <div>
+                    SKOOLKIT ฟรี
+                    และที่สำคัญได้เป็นกองกำลังสำคัญในการพัฒนานวัตกรรมเพื่อการศึกษาอีกด้วย
+                  </div>
+                </div>
+              </v-container>
               <v-container>
                 <div>
                   ระบบการศึกษาไทยกำลังรอบุคลากรซึ่งเป็นส่วนสำคัญในการพัฒนานวัตกรรมการศึกษาเพื่อเด็กไทย
                 </div>
-
-                อย่ารอช้าที่จะร่วมเป็นส่วนหนึ่งในการพัฒนาครั้งนี้</v-container
-              >
-            </div></v-container
-          >
-        </div>
+                <div>อย่ารอช้าที่จะร่วมเป็นส่วนหนึ่งในการพัฒนาครั้งนี้</div>
+              </v-container>
+            </div>
+          </v-container>
+        </v-container>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSdIg1yVM11rcff3xsWIDsR0LVQxj8QVu5Snc4IbG4MVwmrPpQ/viewform?embedded=true"
           width="640"
