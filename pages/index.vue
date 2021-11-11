@@ -395,19 +395,22 @@
           :slideToScroll="1"
           :speed="20000"
           :infinite="true"
-          :cssEase="linear"
         >
-          <v-img src="ก้อน5.png" width="14%"></v-img>
-          <v-img src="ก้อน5.png" width="14%"></v-img>
+          <v-img src="ก้อน7.png" width="14%"></v-img>
+          <v-img src="ก้อน7.png" width="14%"></v-img>
         </VueSlickCarousel>
       </div>
       <div>
-        <VueSlickCarousel :autoplay="true" :autoplayspeed="3">
-          <v-img src="5.png" width="20%"></v-img>
-          <v-img src="6.png" width="20%"></v-img>
-          <v-img src="7.png" width="20%"></v-img>
-          <v-img src="8.png" width="20%"></v-img>
-          <v-img src="9.png" width="20%"></v-img>
+        <VueSlickCarousel
+          ref="carousel"
+          :autoplay="true"
+          :slideToShow="1"
+          :slideToScroll="1"
+          :speed="20000"
+          :infinite="true"
+        >
+          <v-img src="ก้อน5.png" width="14%"></v-img>
+          <v-img src="ก้อน5.png" width="14%"></v-img>
         </VueSlickCarousel>
       </div>
       <v-container>
@@ -515,7 +518,7 @@ export default {
   components: { VueSlickCarousel },
   centerMode: true,
   centerPadding: "20px",
-  focusOnSelect: true,
+  focusOnSelect: false,
   infinite: true,
   slidesToShow: 7,
   speed: 500,
