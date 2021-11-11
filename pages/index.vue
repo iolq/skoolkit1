@@ -371,7 +371,7 @@
       </v-container>
       <!-- เอารูปหมุนๆ -->
 
-      <div class="d-flex">
+      <!-- <div class="d-flex">
         <v-img src="chem.png" width="14%"></v-img>
         <v-img src="citizen.png" width="14%"></v-img>
         <v-img src="history.png" width="14%"></v-img>
@@ -387,8 +387,29 @@
         <v-img src="7.png" width="20%"></v-img>
         <v-img src="8.png" width="20%"></v-img>
         <v-img src="9.png" width="20%"></v-img>
+      </div> -->
+      <div>
+        <VueSlickCarousel
+          :autoplay="true"
+          :slideToShow="1"
+          :slideToScroll="1"
+          :speed="20000"
+          :infinite="true"
+          :cssEase="linear"
+        >
+          <v-img src="ก้อน5.png" width="14%"></v-img>
+          <v-img src="ก้อน5.png" width="14%"></v-img>
+        </VueSlickCarousel>
       </div>
-
+      <div>
+        <VueSlickCarousel :autoplay="true" :autoplayspeed="3">
+          <v-img src="5.png" width="20%"></v-img>
+          <v-img src="6.png" width="20%"></v-img>
+          <v-img src="7.png" width="20%"></v-img>
+          <v-img src="8.png" width="20%"></v-img>
+          <v-img src="9.png" width="20%"></v-img>
+        </VueSlickCarousel>
+      </div>
       <v-container>
         <v-col>
           <div class="text-left px-16">
@@ -483,5 +504,21 @@
     </v-footer>
   </div>
 </template>
+<script>
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
+export default {
+  name: "MyComponent",
+  components: { VueSlickCarousel },
+  centerMode: true,
+  centerPadding: "20px",
+  focusOnSelect: true,
+  infinite: true,
+  slidesToShow: 7,
+  speed: 500,
+};
+</script> 
 
